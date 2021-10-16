@@ -7,4 +7,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Lib Sound Meter"
-include ':app'
+include ':app_showcase'
+include ':lib_sound_meter'

@@ -37,7 +37,7 @@ afterEvaluate {
                 from components.release
                 groupId = "com.volnoor"
                 artifactId = "lib-sound-meter"
-                version "1.0.1"
+                version "1.0.2"
             }
         }
     }

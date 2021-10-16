@@ -52,11 +52,6 @@ class MainActivity : AppCompatActivity() {
         btnStart.setOnClickListener { onButtonStartClicked() }
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-        soundMeter.stop()
-    }
-
     private fun initSoundMeter() {
         soundMeter = SoundMeter(this)
         soundMeter.addListener {
